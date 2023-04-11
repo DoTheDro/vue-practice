@@ -1,12 +1,8 @@
-<script setup>
-import { ref } from 'vue'
+<script>
+export default {
+  props: []
+}
 
-defineProps({
-  msg: String,
-})
-
-const dynamicId = "dynamicId"
-const count = ref(0)
 </script>
 
 <template>
