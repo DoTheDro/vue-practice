@@ -2,7 +2,7 @@
     export default {
         data() {
             return {
-                text: 'This is Hero page'
+                text: 'Page not Found'
             }
         }
     }
