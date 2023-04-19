@@ -4,6 +4,9 @@ import About from '../views/About.vue'
 import NotFound from '../views/NotFound.vue'
 import Heroes from '../views/heroes/Heroes.vue'
 import HeroShowcase from '../views/heroes/HeroShowcase.vue'
+import Items from '../views/items/Items.vue'
+import ItemShowcase from '../views/items/ItemShowcase.vue'
+
 
 const routes = [
     {
@@ -25,6 +28,16 @@ const routes = [
         path: '/heroes/:heroName',
         name: 'HeroShowcase',
         component: HeroShowcase
+    },
+    {
+        path: '/items',
+        name: 'Items',
+        component: Items
+    },
+    {
+        path: '/heroes/:itemName',
+        name: 'ItemShowcase',
+        component: ItemShowcase
     },
     {
         path: '/:catchAll(.*)',

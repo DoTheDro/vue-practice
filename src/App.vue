@@ -3,6 +3,7 @@
     <router-link class="text-2xl text-gray-900 font-medium" to="/">Home</router-link>
     <router-link class="text-2xl text-gray-900 font-medium" :to="{ name: 'About' }">About</router-link>
     <router-link class="text-2xl text-gray-900 font-medium" :to="{ name: 'Heroes' }">Heroes</router-link>
+    <router-link class="text-2xl text-gray-900 font-medium" :to="{ name: 'Items' }">Items</router-link>
   </div>
   <router-view />
 </template>
