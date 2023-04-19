@@ -35,7 +35,7 @@ const routes = [
         component: Items
     },
     {
-        path: '/heroes/:itemName',
+        path: '/items/:id',
         name: 'ItemShowcase',
         component: ItemShowcase
     },
